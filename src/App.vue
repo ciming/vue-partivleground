@@ -2,8 +2,8 @@
   <Partivleground line-color="#fff" dot-color="#fff" class="partivleground">
    <div id="intro" >
     <h1>Particleground</h1>
-    <p>A JavaScript plugin for snazzy background particle systems</p>
-    <a href="https://github.com/jnicol/particleground/archive/master.zip" class="btn">Download</a>
+    <p>A Vue components for snazzy background particle systems</p>
+   
   </div>
   </Partivleground>
 </template>
