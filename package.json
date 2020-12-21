@@ -7,8 +7,11 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "lib:build": "vue-cli-service build --target lib --name VuePartivleground ./src/components/Partivleground/index.js",
+    "lib:publish": "npm run lib:build && npm publish"
   },
+  "main": "dist/VuePartivleground.common.js",
   "dependencies": {
     "core-js": "^3.8.1",
     "vue": "^3.0.0"

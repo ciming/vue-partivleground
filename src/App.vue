@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Partivleground from './components/Partivleground'
+import Partivleground from './components/Partivleground/index'
 
 export default {
   name: 'App',

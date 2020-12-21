@@ -31,7 +31,6 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
-      console.log(this.$props);
       const options = {}
       for(let key in this.$props) {
         options[key] = this.$props[key]
