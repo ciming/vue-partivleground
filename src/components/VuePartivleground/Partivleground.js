@@ -33,6 +33,10 @@ export default class Partivleground{
     this.canvas = document.createElement('canvas');
     this.canvas.className = 'vue-pg__canvas';
     this.canvas.style.display = 'block';
+    this.canvas.style.position = 'absolute';
+    this.canvas.style.left = 0;
+    this.canvas.style.top = 0;
+    this.canvas.style.pointerEvents = 'none';
     this.$wrap.insertBefore(this.canvas, this.$wrap.firstChild);
     this.ctx = this.canvas.getContext('2d')
     this.styleCanvas()

@@ -1,5 +1,5 @@
 <template>
-  <div class="vue-pg">
+  <div class="vue-pg" style="position: relative;">
     <div class="vue-pg__content">
       <slot/>
     </div>
@@ -41,14 +41,3 @@ export default {
   }
 }
 </script>
-<style lang="scss">
-.vue-pg{
-  position: relative;
-  &__canvas{
-    position: absolute;
-    left: 0;
-    top: 0;
-    pointer-events: none;
-  }
-}
-</style>

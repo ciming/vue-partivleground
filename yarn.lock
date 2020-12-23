@@ -1872,13 +1872,6 @@ async-limiter@~1.0.0:
   resolved "https://registry.npm.taobao.org/async-limiter/download/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
 
-async@2.6.1:
-  version "2.6.1"
-  resolved "https://registry.npm.taobao.org/async/download/async-2.6.1.tgz#b245a23ca71930044ec53fa46aa00a3e87c6a610"
-  integrity sha1-skWiPKcZMAROxT+kaqAKPofGphA=
-  dependencies:
-    lodash "^4.17.10"
-
 async@^2.6.1, async@^2.6.2:
   version "2.6.3"
   resolved "https://registry.npm.taobao.org/async/download/async-2.6.3.tgz?cache=0&sync_timestamp=1582540512270&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fasync%2Fdownload%2Fasync-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
@@ -2650,11 +2643,6 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   integrity sha1-w9RaizT9cwYxoRCoolIGgrMdWn8=
   dependencies:
     delayed-stream "~1.0.0"
-
-commander@2.15.1:
-  version "2.15.1"
-  resolved "https://registry.npm.taobao.org/commander/download/commander-2.15.1.tgz?cache=0&sync_timestamp=1607931373430&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcommander%2Fdownload%2Fcommander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
-  integrity sha1-30boZ9D8Kuxmo0ZitAapzK//Ww8=
 
 commander@2.17.x:
   version "2.17.1"
@@ -4143,15 +4131,6 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fs-extra@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npm.taobao.org/fs-extra/download/fs-extra-5.0.0.tgz#414d0110cdd06705734d055652c5411260c31abd"
-  integrity sha1-QU0BEM3QZwVzTQVWUsVBEmDDGr0=
-  dependencies:
-    graceful-fs "^4.1.2"
-    jsonfile "^4.0.0"
-    universalify "^0.1.0"
-
 fs-extra@^7.0.1:
   version "7.0.1"
   resolved "https://registry.npm.taobao.org/fs-extra/download/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
@@ -4298,19 +4277,6 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gh-pages@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npm.taobao.org/gh-pages/download/gh-pages-1.2.0.tgz#1acb92801078f7c038a167f447221d1496ccfbee"
-  integrity sha1-GsuSgBB498A4oWf0RyIdFJbM++4=
-  dependencies:
-    async "2.6.1"
-    commander "2.15.1"
-    filenamify-url "^1.0.0"
-    fs-extra "^5.0.0"
-    globby "^6.1.0"
-    graceful-fs "4.1.11"
-    rimraf "^2.6.2"
-
 gh-pages@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npm.taobao.org/gh-pages/download/gh-pages-3.1.0.tgz#ec3ed0f6a6e3fc3d888758fa018f08191c96bd55"
@@ -4413,11 +4379,6 @@ globule@^1.0.0:
     glob "~7.1.1"
     lodash "~4.17.10"
     minimatch "~3.0.2"
-
-graceful-fs@4.1.11:
-  version "4.1.11"
-  resolved "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
-  integrity sha1-Dovf5NHduIVNZOBOp8AOKgJuVlg=
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.2, graceful-fs@^4.2.3:
   version "4.2.4"
@@ -5538,7 +5499,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.npm.taobao.org/lodash.uniq/download/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.3, lodash@~4.17.10:
+lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.3, lodash@~4.17.10:
   version "4.17.20"
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.20.tgz?cache=0&sync_timestamp=1597339289624&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha1-tEqbYpe8tpjxxRo1RaKzs2jVnFI=
@@ -5965,11 +5926,6 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/natural-compare/download/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
-
-ncp@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/ncp/download/ncp-2.0.0.tgz#195a21d6c46e361d2fb1281ba38b91e9df7bdbb3"
-  integrity sha1-GVoh1sRuNh0vsSgbo4uR6d9727M=
 
 negotiator@0.6.2:
   version "0.6.2"
@@ -7497,7 +7453,7 @@ rimraf@2.6.3:
   dependencies:
     glob "^7.1.3"
 
-rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@^2.6.3, rimraf@^2.7.1:
+rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.3, rimraf@^2.7.1:
   version "2.7.1"
   resolved "https://registry.npm.taobao.org/rimraf/download/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
   integrity sha1-NXl/E6f9rcVmFCwp1PB8ytSD4+w=
@@ -8795,15 +8751,6 @@ vue-eslint-parser@^7.2.0:
     esquery "^1.0.1"
     lodash "^4.17.15"
 
-vue-gh-pages@^1.19.1:
-  version "1.19.1"
-  resolved "https://registry.npm.taobao.org/vue-gh-pages/download/vue-gh-pages-1.19.1.tgz#db3377619b0a2b40568f2b336a883a5f7f0ea42f"
-  integrity sha1-2zN3YZsKK0BWjyszaog6X38OpC8=
-  dependencies:
-    gh-pages "^1.2.0"
-    ncp "^2.0.0"
-    rimraf "^2.6.1"
-
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
@@ -8828,6 +8775,23 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-particleground@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/vue-particleground/-/vue-particleground-0.1.1.tgz#221d18f2955f55edc93723cdf35fbc0f34acf342"
+  integrity sha512-saBKrNnZk/gm6xHtIutdvjXqcGquheGnex9pqjnthcg4S65dbXnzGnxlKaK9GFDg9J48tpKrr/VSut5ndKhPbw==
+  dependencies:
+    core-js "^3.8.1"
+    vue "^3.0.0"
+
+vue-particleground@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/vue-particleground/-/vue-particleground-1.1.2.tgz#734587f886263241c1652258ae47fec44486916d"
+  integrity sha512-MZrt8BtK32+ACjSoefijDSmBNdwhmgGUUNTl8WMelnTTwSHr74YuRSgPa1HtQ7quZFAB+y4oIbo9UnyURVcC0Q==
+  dependencies:
+    core-js "^3.8.1"
+    vue "^3.0.0"
+    vue-particleground "^0.1.1"
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"

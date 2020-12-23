@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Partivleground from './components/Partivleground/index'
+import Partivleground from 'vue-particleground'
 
 export default {
   name: 'App',
